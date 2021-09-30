@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "trabalhando": "nodemon index.js"
+    "trabalhando": "nodemon index.js -L"
   },
   "repository": {
     "type": "git",

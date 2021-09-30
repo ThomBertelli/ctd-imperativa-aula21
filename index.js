@@ -30,4 +30,4 @@ aplicativo.get('/', (_, respostaDoServidor) => respostaDoServidor.send('API OK')
 aplicativo.use('/professores', rotasDosProfessores);
 
 // Inicialização do Projeto Nodejs.
-aplicativo.listen(1234, () => console.log('Servidor funcionando!'));
+aplicativo.listen(8888, () => console.log('Servidor funcionando!'));
